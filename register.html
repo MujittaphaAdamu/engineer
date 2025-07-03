@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    *{
+      text-align: center;
+      background-color: skyblue;
+
+    }
+  </style>
+  <title>User Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="dashboard.html">
+  <div class="container">
+    <h1>SIR JUVEEE</h1>
+    <h2>Register</h2>
+    <form onsubmit="register(event)">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <br><br>
+      <input type="text" id="country" placeholder="Country" required>
+      <br><br>
+      <input type="text" id="state" placeholder="State" required>
+      <br><br>
+      <input type="text" id="lga" placeholder="Local Government" required>
+      <br><br>
+      <input type="text" id="ward" placeholder="Ward" required>
+      <br><br>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <br><br>
+      <input type="tel" id="phone" placeholder="Phone Number" required>
+      <br><br>
+      <input type="password" id="password" placeholder="Password" required>
+      <br> <br>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <script src="js/register.js"></script>
+  <a href="dashboard.html"></a>
+</body>

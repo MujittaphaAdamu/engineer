@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    *{
+      text-align: center;
+      background-color: skyblue;
+    }
+  </style>
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form action="bbc.html">
+  <div class="container">
+    <h2>Support Request Form</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" id="occupation" placeholder="Your Occupation" required>
+      <br><br>
+      <select id="support" required>
+        <option value="">Select Support Type</option>
+        <option value="Financial">Financial</option>
+        <option value="Equipment">Equipment</option>
+        <option value="Training">Training</option>
+      </select>
+      <br><br>
+      <textarea id="plan" rows="5" placeholder="What do you plan to do with the help?" required></textarea>
+      <br><br>
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
